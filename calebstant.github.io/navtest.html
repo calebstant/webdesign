@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar and Media Queries </title>
+    <style>
+        Nav { 
+            background: green;
+            top:0;
+            left:0;
+            width:100%;
+            position: fixed;
+            padding: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            z-index: 999;
+        }
+        nav a{ 
+            color: greenyellow;
+            font-weight: bold;
+            background: #333;
+            padding: 10px;
+            margin-right: -5px;
+        }
+        body { background: lightblue; color: black;}
+
+        /* media query for screens <=992px */ 
+        @media screen and  (max-width: 992px) { 
+            body { background: darkslategray; color: white;}
+        }
+             /* media query for screens <=600px */ 
+             @media screen and  (max-width: 992px) { 
+            body { background: darkblue; color: white;}
+            nav a { 
+                display: block;
+                margin-left: -10px;
+                text-align: center;
+                border: 1px solid white
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <nav> 
+        <a href="#top"> top </a>
+        <a href="#bot"> Bottom </a>
+        <a href="#"> link 1</a>
+        <a href="#"> link 1</a>
+        <a href="#"> link 1</a>
+    </nav>
+    <br id="top">
+        <br></br>
+        <p>
+
+        </p>
+    </div>
+
+
+
+   
+</body>
+</html>

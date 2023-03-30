@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<br>
+<head>
+    <meta charset="utf-8">
+    <meta lang="en">
+    <meta viewport="width=device-width, initial-scale=1">
+    <title>Contact Me</title>
+    <style>
+        *{ 
+            font: size 17px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        #sbutton {
+            color:wheat;
+            background: blueviolet;
+            font-size: 73px;
+        }
+    </style>
+</head>
+<br>
+    <center><h1>Contact Me</h1></center>
+  
+    <br Action="#" method="post" id="contactfrom" style="text-align:center;"
+        onsubmit="alert(Not implemented yet')"; >
+        <div> id="fdiv" 
+                <label for="myname"> name:<span class="rqd">*</span></label> </div></br> 
+                <input type="text" name="myname" id="myname" required> </br> </br>
+
+                <label for="myemail">email:<span class="rqd">*</span></label> </br>
+                <input type="email" name="myemail" id="myemail" required> </br></br>
+
+                <label for="subject">subject<span class="rqd">*</span></label> </br>
+                <input type="text" name="subject" id="subject"
+                placeholder="CS 101" required></br></br>
+
+                <span class="rqd">*</span>
+                <textarea name="tbody" id="tbody" placeholder="entermessage..."
+                required></textarea> </br></br>
+
+                <label for="priorty">Priorty:</label> </br>
+                <select name="priorty" id="priorty" requiered> 
+                    <option disabled selected value>--Select an Opion--</option>
+                    <option value="low">Low</option>
+                    <option value="med">Medium</option>
+                    <option value="high">High</option>
+                    <option value="crit">Critical</option>
+                </select> </br></br>
+
+                <label for="attach"> Attachments:</label> </div></br> 
+                <input type="file" name="attach" id="attach"> </br> </br>
+
+                <label for="flwup"> Do you want a follow up email?:</label> </div></br> 
+                <input type="radio" name="flwup" id="flwupy" value="yes" /> 
+                
+                <label for="radio" class="flwup" id="flwupn" value="no" />
+
+        </div>
+    </form>
+</body>
+</html>
